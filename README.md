@@ -5,3 +5,5 @@ check solutions only if you solved the problem and you like to check other solut
 or if you tried your hard after (thinking - checking problem tutorial) and could not solve it.
 note that this is not the best solution you will find across the internet :D
 good luck :)
+
+i will upload more  problems once i solve them.
