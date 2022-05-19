@@ -13,8 +13,12 @@ int n;
 
 bool isValid(vector<string>&grid, int i, int j) {
 
+    /// if the cell is @ or x it means it belongs to the same graph (ship) and they are connected.
+
     return i >= 0 && i < n && j >= 0 && j < n && grid[i][j] != '.';
 }
+
+/// traverse the 4 sides of the current cell (left,right,up,down)
 int dy[] = {1,-1,0,0};
 int dx[] = {0,0,1,-1};
 
