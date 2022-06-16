@@ -47,5 +47,21 @@ public:
 };
 
 int main() {
-	
+
+	int n;
+	cin >> n;
+	vector<int> data;
+
+	for(int i = 0; i < n; i ++) {
+		int number;
+		cin >> number;
+
+		data.push_back(number);
+	}
+	Solution sol =  Solution();
+	vector<vector < int > > answer = sol.minimumAbsDifference(data);
+
+	for(int i = 0; i < answer.size(); i ++) {
+		cout << "[ " << answer[i][0] << ", " << answer[i][1] << " ]" << endl;
+	}
 }
